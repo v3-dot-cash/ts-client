@@ -1,9 +1,9 @@
 
 # Getting Started with v3.cash
-
+<!-- 
 ## Introduction
 
-Admin Portal to fetch data required for running apis: [/admin/tenants](/admin/tenants)
+Admin Portal to fetch data required for running apis: [/admin/tenants](/admin/tenants) -->
 
 ## Building
 
