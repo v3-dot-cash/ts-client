@@ -8,7 +8,7 @@ import { lazy, object, optional, Schema, string } from '../schema';
 import { Address, addressSchema } from './address';
 import { Company, companySchema } from './company';
 import { Individual, individualSchema } from './individual';
-import { TypeEnum, typeEnumSchema } from './typeEnum';
+import { typeEnumSchema } from './typeEnum';
 
 /** Legal defination of an account holder */
 export interface AccountHolder {

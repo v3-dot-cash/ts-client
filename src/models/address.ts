@@ -5,7 +5,7 @@
  */
 
 import { object, optional, Schema, string } from '../schema';
-import { StatusEnum, statusEnumSchema } from './statusEnum';
+import { statusEnumSchema } from './statusEnum';
 
 /** Legal physical address */
 export interface Address {

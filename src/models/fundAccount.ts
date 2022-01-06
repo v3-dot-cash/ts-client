@@ -9,7 +9,7 @@ import {
   FundAccountConnection,
   fundAccountConnectionSchema,
 } from './fundAccountConnection';
-import { Type1Enum, type1EnumSchema } from './type1Enum';
+import { type1EnumSchema } from './type1Enum';
 
 /** Details of account from which to collect or deposit funds */
 export interface FundAccount {

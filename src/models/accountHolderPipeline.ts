@@ -6,7 +6,7 @@
 
 import { lazy, object, optional, Schema, string } from '../schema';
 import { AccountHolder, accountHolderSchema } from './accountHolder';
-import { Status3Enum, status3EnumSchema } from './status3Enum';
+import { status3EnumSchema } from './status3Enum';
 
 /** Describes a connection between payer and beneficiary. This is used to evaluate dispute and aml risks */
 export interface AccountHolderPipeline {
