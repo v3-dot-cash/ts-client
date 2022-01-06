@@ -5,7 +5,7 @@
  */
 
 import { object, optional, Schema, string } from '../schema';
-import { Type2Enum, type2EnumSchema } from './type2Enum';
+import { type2EnumSchema } from './type2Enum';
 
 /** A user of the platform. This is used in context of authentication and authorization. A user can be a human or an api-client every request to the platform is invoked by a user */
 export interface User {

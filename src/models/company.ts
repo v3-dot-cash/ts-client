@@ -6,7 +6,7 @@
 
 import { lazy, object, optional, Schema, string } from '../schema';
 import { Address, addressSchema } from './address';
-import { StatusEnum, statusEnumSchema } from './statusEnum';
+import { statusEnumSchema } from './statusEnum';
 
 /** Legal details of a business entity */
 export interface Company {
